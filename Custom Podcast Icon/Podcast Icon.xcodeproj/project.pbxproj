@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA5F8ED264FB3B40015D98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5F8EC264FB3B40015D98B /* AppDelegate.swift */; };
+		BCA5F8EF264FB3B40015D98B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5F8EE264FB3B40015D98B /* SceneDelegate.swift */; };
+		BCA5F8F1264FB3B40015D98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5F8F0264FB3B40015D98B /* ContentView.swift */; };
+		BCA5F8F3264FB3B60015D98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA5F8F2264FB3B60015D98B /* Assets.xcassets */; };
+		BCA5F8F6264FB3B60015D98B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA5F8F5264FB3B60015D98B /* Preview Assets.xcassets */; };
+		BCA5F8F9264FB3B60015D98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA5F8F7264FB3B60015D98B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCA5F8E9264FB3B40015D98B /* Podcast Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Podcast Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA5F8EC264FB3B40015D98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA5F8EE264FB3B40015D98B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCA5F8F0264FB3B40015D98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCA5F8F2264FB3B60015D98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA5F8F5264FB3B60015D98B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCA5F8F8264FB3B60015D98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA5F8FA264FB3B60015D98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA5F8E6264FB3B40015D98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA5F8E0264FB3B40015D98B = {
+			isa = PBXGroup;
+			children = (
+				BCA5F8EB264FB3B40015D98B /* Custom Podcast Icon */,
+				BCA5F8EA264FB3B40015D98B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA5F8EA264FB3B40015D98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5F8E9264FB3B40015D98B /* Podcast Icon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA5F8EB264FB3B40015D98B /* Custom Podcast Icon */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5F8EC264FB3B40015D98B /* AppDelegate.swift */,
+				BCA5F8EE264FB3B40015D98B /* SceneDelegate.swift */,
+				BCA5F8F0264FB3B40015D98B /* ContentView.swift */,
+				BCA5F8F2264FB3B60015D98B /* Assets.xcassets */,
+				BCA5F8F7264FB3B60015D98B /* LaunchScreen.storyboard */,
+				BCA5F8FA264FB3B60015D98B /* Info.plist */,
+				BCA5F8F4264FB3B60015D98B /* Preview Content */,
+			);
+			path = "Custom Podcast Icon";
+			sourceTree = "<group>";
+		};
+		BCA5F8F4264FB3B60015D98B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5F8F5264FB3B60015D98B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA5F8E8264FB3B40015D98B /* Podcast Icon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA5F8FD264FB3B60015D98B /* Build configuration list for PBXNativeTarget "Podcast Icon" */;
+			buildPhases = (
+				BCA5F8E5264FB3B40015D98B /* Sources */,
+				BCA5F8E6264FB3B40015D98B /* Frameworks */,
+				BCA5F8E7264FB3B40015D98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Podcast Icon";
+			productName = "Custom Podcast Icon";
+			productReference = BCA5F8E9264FB3B40015D98B /* Podcast Icon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA5F8E1264FB3B40015D98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Monique Shaqiri";
+				TargetAttributes = {
+					BCA5F8E8264FB3B40015D98B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = BCA5F8E4264FB3B40015D98B /* Build configuration list for PBXProject "Podcast Icon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA5F8E0264FB3B40015D98B;
+			productRefGroup = BCA5F8EA264FB3B40015D98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA5F8E8264FB3B40015D98B /* Podcast Icon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA5F8E7264FB3B40015D98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5F8F9264FB3B60015D98B /* LaunchScreen.storyboard in Resources */,
+				BCA5F8F6264FB3B60015D98B /* Preview Assets.xcassets in Resources */,
+				BCA5F8F3264FB3B60015D98B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA5F8E5264FB3B40015D98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5F8ED264FB3B40015D98B /* AppDelegate.swift in Sources */,
+				BCA5F8EF264FB3B40015D98B /* SceneDelegate.swift in Sources */,
+				BCA5F8F1264FB3B40015D98B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCA5F8F7264FB3B60015D98B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA5F8F8264FB3B60015D98B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA5F8FB264FB3B60015D98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA5F8FC264FB3B60015D98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA5F8FE264FB3B60015D98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Custom Podcast Icon/Preview Content\"";
+				DEVELOPMENT_TEAM = PJBAA344QW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Custom Podcast Icon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Softwareengineering-S.Custom-Podcast-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA5F8FF264FB3B60015D98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Custom Podcast Icon/Preview Content\"";
+				DEVELOPMENT_TEAM = PJBAA344QW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Custom Podcast Icon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Softwareengineering-S.Custom-Podcast-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA5F8E4264FB3B40015D98B /* Build configuration list for PBXProject "Podcast Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5F8FB264FB3B60015D98B /* Debug */,
+				BCA5F8FC264FB3B60015D98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA5F8FD264FB3B60015D98B /* Build configuration list for PBXNativeTarget "Podcast Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5F8FE264FB3B60015D98B /* Debug */,
+				BCA5F8FF264FB3B60015D98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA5F8E1264FB3B40015D98B /* Project object */;
+}
